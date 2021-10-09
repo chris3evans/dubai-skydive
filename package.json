@@ -1,0 +1,16 @@
+{
+  "name": "skydive-dubai",
+  "version": "1.0.0",
+  "description": "",
+  "default": "index.html",
+  "scripts": {
+    "compileP1:sass": "node-sass Page1Sass/page1Main.scss page1Main.css -w",
+    "compileP2:sass": "node-sass Page2Sass/page2Main.scss page2Main.css -w"
+  },
+  "author": "Chris Evans",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.1",
+    "parcel": "^2.0.0-rc.0"
+  }
+}

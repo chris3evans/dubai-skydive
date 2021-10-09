@@ -1,0 +1,30 @@
+.section-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+
+  background-color: $color-light-green;
+  background-image: linear-gradient(
+      to bottom,
+      rgba($color-light-green, 0.8),
+      rgba($color-light-green, 0.8)
+    ),
+    url("../../../../Images/Layer\ 5.png");
+  background-position: top;
+  background-size: 30%;
+  background-repeat: no-repeat;
+
+  height: 60rem;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &-city {
+    height: auto;
+    width: 100%;
+    margin-bottom: 0%;
+  }
+}
