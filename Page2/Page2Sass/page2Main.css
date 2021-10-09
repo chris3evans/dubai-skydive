@@ -44,13 +44,25 @@ html {
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: "Karla", sans-serif;
+  font-family: "Cabin", sans-serif;
+}
+
+.primary__heading {
+  font-size: 7rem;
+  color: white;
+}
+
+.primary__heading--span {
+  font-size: 12rem;
+  color: #240051;
+  margin-left: -1.5rem;
+  text-transform: uppercase;
+  font-family: "Merriweather Sans", sans-serif;
 }
 
 .secondary__heading {
   color: white;
   font-size: 4rem;
-  margin-bottom: 1rem;
   font-weight: 300;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -68,21 +80,21 @@ body {
   background-color: white;
   border-radius: 100%;
   margin-right: 1rem;
-  margin-left: 2rem;
+  margin-left: 3rem;
 }
 
 .main-text-right {
   color: white;
-  font-size: 2.2rem;
-  margin-left: 2rem;
+  font-size: 2rem;
+  margin-left: 3rem;
   line-height: 2.8rem;
   letter-spacing: 0.1rem;
 }
 
 .main-text-left {
   color: white;
-  font-size: 2.2rem;
-  margin-right: 2rem;
+  font-size: 2rem;
+  margin-right: 3rem;
   line-height: 2.8rem;
   letter-spacing: 0.1rem;
 }
@@ -91,11 +103,17 @@ body {
   color: white;
 }
 
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .class {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding: 2rem;
+  padding: 1rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -112,8 +130,8 @@ body {
 }
 
 .class__image-file {
-  height: 25rem;
-  width: 25rem;
+  height: 22rem;
+  width: 22rem;
   border-radius: 100%;
   border: #ffdde3 1rem solid;
 }
@@ -128,7 +146,7 @@ body {
   content: "";
   display: inline-block;
   height: 0.4rem;
-  width: 25rem;
+  width: 30rem;
   background-color: #240051;
   margin-top: 1rem;
   margin-left: 30rem;
@@ -144,7 +162,7 @@ body {
   content: "";
   display: inline-block;
   height: 0.4rem;
-  width: 25rem;
+  width: 30rem;
   background-color: #240051;
   margin-top: 1rem;
   margin-left: 30rem;
@@ -152,12 +170,12 @@ body {
 
 .class__title {
   background-color: #240051;
-  padding: 2rem 2rem 0.5rem 2rem;
+  padding: 1rem 1rem 0.5rem 1rem;
 }
 
 .class__text {
   background-color: #240051;
-  padding: 0.5rem 2rem 2rem 2rem;
+  padding: 0.5rem 1rem 1rem 1rem;
 }
 
 .classes {
@@ -209,5 +227,59 @@ body {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 calc( 3 * ((100% - (3 * 6rem)) / 4) + (2 * 6rem));
           flex: 0 0 calc( 3 * ((100% - (3 * 6rem)) / 4) + (2 * 6rem));
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #240051;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.heading__background {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-image: url("../../../../Images/skydive-dubai-image.png");
+  background-position: center;
+  -webkit-clip-path: ellipse(48% 48% at 50% 50%);
+          clip-path: ellipse(48% 48% at 50% 50%);
+}
+
+.heading__text {
+  padding: 0rem 3rem;
+}
+
+.section-1-of-3 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 30%;
+          flex: 0 0 30%;
+}
+
+.section-2-of-3 {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding-left: 4rem;
+  background-color: #ffdde3;
 }
 /*# sourceMappingURL=page2Main.css.map */

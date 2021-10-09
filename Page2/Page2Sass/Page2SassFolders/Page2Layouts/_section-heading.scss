@@ -1,4 +1,36 @@
+.container {
+  display: flex;
+}
+
 .heading {
-  &__container {
+  display: flex;
+  background-color: $color-dark-purple;
+  flex: 1;
+
+  &__background {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../../../../Images/skydive-dubai-image.png");
+    background-position: center;
+    clip-path: ellipse(48% 48% at 50% 50%);
+    //&--file {
+    // width: 100%;
+    //}
   }
+
+  &__text {
+    padding: 0rem 3rem;
+  }
+}
+
+.section-1-of-3 {
+  flex: 0 0 30%;
+}
+
+.section-2-of-3 {
+  flex: 1;
+  padding-left: 4rem;
+  background-color: $color-light-pink;
 }

@@ -1,6 +1,6 @@
 .class {
   display: flex;
-  padding: 2rem;
+  padding: 1rem;
   align-items: center;
 
   &__image-left {
@@ -14,8 +14,8 @@
   }
 
   &__image-file {
-    height: 25rem;
-    width: 25rem;
+    height: 22rem;
+    width: 22rem;
     border-radius: 100%;
     border: $color-light-pink 1rem solid;
   }
@@ -29,7 +29,7 @@
       content: "";
       display: inline-block;
       height: 0.4rem;
-      width: 25rem;
+      width: 30rem;
       background-color: $color-dark-purple;
       margin-top: 1rem;
       margin-left: 30rem;
@@ -45,7 +45,7 @@
       content: "";
       display: inline-block;
       height: 0.4rem;
-      width: 25rem;
+      width: 30rem;
       background-color: $color-dark-purple;
       margin-top: 1rem;
       margin-left: 30rem;
@@ -54,11 +54,11 @@
 
   &__title {
     background-color: $color-dark-purple;
-    padding: 2rem 2rem 0.5rem 2rem;
+    padding: 1rem 1rem 0.5rem 1rem;
   }
 
   &__text {
     background-color: $color-dark-purple;
-    padding: 0.5rem 2rem 2rem 2rem;
+    padding: 0.5rem 1rem 1rem 1rem;
   }
 }

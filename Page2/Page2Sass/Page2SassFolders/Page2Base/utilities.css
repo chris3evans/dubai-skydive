@@ -1,4 +1,10 @@
 .font-white {
   color: white;
 }
+
+.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=utilities.css.map */
