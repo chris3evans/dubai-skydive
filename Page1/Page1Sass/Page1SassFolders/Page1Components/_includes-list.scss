@@ -1,0 +1,20 @@
+.book__list {
+  display: flex;
+  justify-content: center;
+  margin: 4rem 0rem;
+}
+
+.book__item {
+  display: flex;
+  align-items: center;
+
+  &:not(last-of-type) {
+    margin-right: 5rem;
+  }
+}
+
+.book__icon {
+  height: 10rem;
+  width: 10rem;
+  margin-right: 2rem;
+}

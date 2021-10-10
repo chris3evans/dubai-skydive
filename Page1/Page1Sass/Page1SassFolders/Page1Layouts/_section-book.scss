@@ -1,0 +1,63 @@
+.section-book {
+  background-color: $color-dark-purple;
+
+  .book-image {
+    padding: 8rem 0rem;
+    position: relative;
+
+    &__container {
+      height: 60rem;
+      width: 60rem;
+      background-color: $color-light-pink;
+      border-radius: 100%;
+      margin: 0rem auto;
+      padding: 5rem 0rem;
+
+      &::after {
+        content: "";
+        display: inline-block;
+        background-color: transparent;
+        border: 0.2rem solid $color-light-pink;
+        height: 60rem;
+        width: 60rem;
+        border-radius: 100%;
+        position: absolute;
+        top: 15%;
+        right: 21%;
+      }
+    }
+  }
+
+  .book-includes {
+  }
+
+  .book-button {
+    padding: 4rem;
+    display: flex;
+    justify-content: center;
+
+    .book__button:link,
+    .book__button:visited {
+      font-size: 5rem;
+      text-transform: uppercase;
+      color: white;
+      background-color: $color-light-pink;
+      padding: 2rem 5rem;
+      border-radius: 2rem;
+      text-decoration: none;
+      margin: 3rem 0rem 20rem 0rem;
+      font-weight: 600;
+      transition: all 0.4s;
+    }
+
+    .book__button:hover {
+      transform: translateY(-0.5rem);
+      box-shadow: 0rem 1rem 3rem rgba(black, 0.6);
+    }
+
+    .book__button:active {
+      transform: translateY(0rem);
+      box-shadow: none;
+    }
+  }
+}
