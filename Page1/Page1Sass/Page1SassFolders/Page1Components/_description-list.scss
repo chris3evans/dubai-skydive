@@ -1,0 +1,21 @@
+.description__list {
+  padding: 2rem;
+}
+
+.description__item {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  width: 100%;
+  margin: 0 auto;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    height: 0.8rem;
+    width: 0.8rem;
+    border-radius: 100%;
+    background-color: $color-dark-purple;
+    margin-right: 1rem;
+  }
+}
