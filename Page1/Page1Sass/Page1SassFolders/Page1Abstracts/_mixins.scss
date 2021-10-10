@@ -1,4 +1,4 @@
-// MEDIA QUERY MANAGER - DO NOT CHANGE
+// MEDIA QUERY MANAGER - DO NOT CHANGE 
 
 @mixin respond($breakpoint) {
   @if $breakpoint == phone-small {

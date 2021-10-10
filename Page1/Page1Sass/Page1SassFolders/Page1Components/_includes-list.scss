@@ -2,14 +2,26 @@
   display: flex;
   justify-content: center;
   margin: 4rem 0rem;
+
+  @include respond(phone-big) {
+    display: block;
+  }
 }
 
 .book__item {
   display: flex;
   align-items: center;
 
+  @include respond(phone-big) {
+    justify-content: center;
+  }
+
   &:not(last-of-type) {
     margin-right: 5rem;
+
+    @include respond(phone-big) {
+      margin-bottom: 5rem;
+    }
   }
 }
 

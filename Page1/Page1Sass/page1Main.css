@@ -143,6 +143,12 @@ body {
   margin: 4rem 0rem;
 }
 
+@media (max-width: 37.5em) {
+  .book__list {
+    display: block;
+  }
+}
+
 .book__item {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -152,8 +158,22 @@ body {
           align-items: center;
 }
 
+@media (max-width: 37.5em) {
+  .book__item {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
 .book__item:not(last-of-type) {
   margin-right: 5rem;
+}
+
+@media (max-width: 37.5em) {
+  .book__item:not(last-of-type) {
+    margin-bottom: 5rem;
+  }
 }
 
 .book__icon {
@@ -180,6 +200,13 @@ body {
   padding: 5rem 0rem;
 }
 
+@media (max-width: 37.5em) {
+  .section-book .book-image__container {
+    height: 40rem;
+    width: 40rem;
+  }
+}
+
 .section-book .book-image__container::after {
   content: "";
   display: inline-block;
@@ -191,6 +218,27 @@ body {
   position: absolute;
   top: 15%;
   right: 21%;
+}
+
+@media (max-width: 75em) {
+  .section-book .book-image__container::after {
+    right: 18%;
+  }
+}
+
+@media (max-width: 56.25em) {
+  .section-book .book-image__container::after {
+    right: 8%;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .section-book .book-image__container::after {
+    height: 40rem;
+    width: 40rem;
+    top: 18%;
+    right: 2%;
+  }
 }
 
 .section-book .book-button {
@@ -216,6 +264,13 @@ body {
   font-weight: 600;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
+}
+
+@media (max-width: 37.5em) {
+  .section-book .book-button .book__button:link,
+  .section-book .book-button .book__button:visited {
+    font-size: 4rem;
+  }
 }
 
 .section-book .book-button .book__button:hover {
@@ -244,16 +299,34 @@ body {
 
 .section-description .description-image {
   height: 40rem;
-  width: 150rem;
+  width: 130rem;
   background-color: #ffdde3;
   border-radius: 6rem;
   margin-left: -20rem;
   z-index: 10;
 }
 
+@media (max-width: 75em) {
+  .section-description .description-image {
+    width: 110rem;
+  }
+}
+
+@media (max-width: 56.25em) {
+  .section-description .description-image {
+    width: 88rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .section-description .description-image {
+    width: 60rem;
+  }
+}
+
 .section-description .description-image-outline {
   height: 40rem;
-  width: 150rem;
+  width: 130rem;
   background-color: transparent;
   border: 0.2rem solid #ffdde3;
   border-radius: 6rem;
@@ -261,6 +334,25 @@ body {
   position: absolute;
   top: 20rem;
   left: -15rem;
+}
+
+@media (max-width: 75em) {
+  .section-description .description-image-outline {
+    width: 110rem;
+  }
+}
+
+@media (max-width: 56.25em) {
+  .section-description .description-image-outline {
+    width: 88rem;
+  }
+}
+
+@media (max-width: 37.5em) {
+  .section-description .description-image-outline {
+    width: 60rem;
+    left: -18rem;
+  }
 }
 
 .row {
