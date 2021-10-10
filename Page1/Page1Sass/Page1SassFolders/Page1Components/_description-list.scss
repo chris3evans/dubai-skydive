@@ -1,21 +1,25 @@
-.description__list {
-  padding: 2rem;
-}
+.description-info {
+  &__list {
+    padding: 4rem;
+    margin: 3rem 0rem;
+  }
 
-.description__item {
-  display: flex;
-  align-items: center;
-  padding: 1rem;
-  width: 100%;
-  margin: 0 auto;
+  &__item {
+    display: flex;
+    align-items: center;
 
-  &::before {
-    content: "";
-    display: inline-block;
-    height: 0.8rem;
-    width: 0.8rem;
-    border-radius: 100%;
-    background-color: $color-dark-purple;
-    margin-right: 1rem;
+    &::before {
+      content: "";
+      display: inline-block;
+      height: 1rem;
+      width: 1rem;
+      border-radius: 100%;
+      background-color: $color-dark-purple;
+      margin-right: 1rem;
+    }
+
+    &:not(:last-of-type) {
+      margin-bottom: 5rem;
+    }
   }
 }
