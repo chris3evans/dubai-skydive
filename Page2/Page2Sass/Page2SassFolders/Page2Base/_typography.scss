@@ -2,6 +2,11 @@
   font-size: 7rem;
   color: white;
   font-weight: 300;
+  line-height: 9rem;
+
+  @include respond(phone-big) {
+    font-size: 6rem;
+  }
 
   &--span {
     font-size: 12rem;
@@ -10,6 +15,10 @@
     text-transform: uppercase;
 
     font-family: "Merriweather Sans", sans-serif;
+
+    @include respond(phone-big) {
+      font-size: 9.5rem;
+    }
   }
 }
 
@@ -20,6 +29,10 @@
 
   display: flex;
   align-items: center;
+
+  @include respond(phone-big) {
+    font-size: 3rem;
+  }
 
   &::before {
     content: "";
@@ -39,6 +52,10 @@
   margin-left: 3rem;
   line-height: 2.8rem;
   letter-spacing: 0.1rem;
+
+  @include respond(phone-big) {
+    font-size: 1.8rem;
+  }
 }
 
 .main-text-left {
@@ -47,4 +64,8 @@
   margin-right: 3rem;
   line-height: 2.8rem;
   letter-spacing: 0.1rem;
+
+  @include respond(phone-big) {
+    font-size: 1.8rem;
+  }
 }
