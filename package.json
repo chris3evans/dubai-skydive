@@ -5,11 +5,13 @@
   "default": "index.html",
   "scripts": {
     "compileP1:sass": "node-sass Page1Sass/page1Main.scss page1Main.css -w",
-    "compileP2:sass": "node-sass Page2Sass/page2Main.scss page2Main.css -w"
+    "compileP2:sass": "node-sass Page2Sass/page2Main.scss page2Main.css -w",
+    "build": "parcel build Page1/index.html --dist-dir ./dist && parcel build Page2/page2.html --dist-dir ./dist"
   },
   "author": "Chris Evans",
   "license": "ISC",
   "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
     "node-sass": "^6.0.1",
     "parcel": "^2.0.0-rc.0"
   }

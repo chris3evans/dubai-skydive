@@ -295,9 +295,9 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
 }
 
 .row {
@@ -407,29 +407,9 @@ body {
   padding: 0rem 4rem;
   height: 90%;
   width: 90%;
-  background-image: url("../../../../Images/skydive-dubai-image.png");
+  background-image: url("../../Images/skydive-dubai-image.png");
   background-position: center;
   border-radius: 18rem;
-  /*&::before {
-      content: "";
-      display: block;
-      height: 90%;
-      width: 90%;
-      border: 0.2rem solid rgb(184, 100, 214);
-      background-color: transparent;
-      border-radius: 18rem;
-      position: absolute;
-      top: 8%;
-      left: 8%;
-      z-index: 5;
-
-      @include respond(tab-port) {
-        height: 80%;
-        width: 80%;
-        top: 16%;
-        left: 12%;
-      }
-    }*/
 }
 
 @media (max-width: 56.25em) {

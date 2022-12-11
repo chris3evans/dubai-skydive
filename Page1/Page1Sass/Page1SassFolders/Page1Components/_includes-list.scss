@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
   margin: 4rem 0rem;
+  padding: 0rem 2rem;
 
   @include respond(phone-big) {
     display: block;
@@ -16,7 +17,7 @@
     justify-content: center;
   }
 
-  &:not(last-of-type) {
+  &:not(:last-of-type) {
     margin-right: 5rem;
 
     @include respond(phone-big) {

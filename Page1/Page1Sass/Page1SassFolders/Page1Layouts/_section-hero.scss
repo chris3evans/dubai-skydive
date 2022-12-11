@@ -1,9 +1,15 @@
 .section-hero {
   background-color: $color-light-green;
-  height: 60rem;
+  height: 120rem;
   display: flex;
   justify-content: center;
   flex-direction: column;
+
+  flex: 0 0 33%;
+
+  @include respond(tab-land) {
+    height: 60rem;
+  }
 
   .hero-heading {
     margin: auto;

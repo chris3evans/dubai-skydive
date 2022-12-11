@@ -1,4 +1,6 @@
 .section-description {
+  flex: 0 0 33%;
+
   .description-info-container {
     background-color: $color-light-pink;
   }
@@ -11,7 +13,7 @@
 
   .description-image {
     height: 40rem;
-    width: 130rem;
+    width: 52.5rem;
     background-color: $color-light-pink;
     border-radius: 6rem;
     margin-left: -20rem;
@@ -21,7 +23,7 @@
       width: 110rem;
     }
     @include respond(tab-port) {
-      width: 88rem;
+      width: 85rem;
     }
     @include respond(phone-big) {
       width: 60rem;
@@ -30,7 +32,7 @@
 
   .description-image-outline {
     height: 40rem;
-    width: 130rem;
+    width: 52.5rem;
     background-color: transparent;
     border: 0.2rem solid $color-light-pink;
     border-radius: 6rem;
@@ -43,7 +45,7 @@
       width: 110rem;
     }
     @include respond(tab-port) {
-      width: 88rem;
+      width: 85rem;
     }
     @include respond(phone-big) {
       width: 60rem;
